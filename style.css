@@ -13,6 +13,21 @@
     font-size: 20px;
     border: none;
 }
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: black;
+}
+.section-description{
+    font-size: 18px;
+    color: #757575;
+}
+.secondary-bg{
+    background-color: #FFF8F3;
+}
+.text-center{
+    text-align: center;
+}
 
 /*Navigation*/
 nav{
@@ -62,4 +77,65 @@ header{
     background: url('images/developer.png') , url('images/header_bg.png');
     background-repeat: no-repeat;
     background-position: top left, bottom right;
+}
+/*Main Page*/
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+/*About*/
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.item-description{
+    font-weight: bold;
+}
+
+
+.skill-container{
+    display: flex;
+    justify-content: space-between;
+}
+.skill-container .skill{
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+}
+
+
+
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+
+
+footer{
+    padding: 130px 200px;
+    display: flex;
+    gap: 100px;
+
+}
+footer .footer-column{
+    width: 50%;
+}
+footer input[type='text'], footer input[type='email'], footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    margin-bottom: 24px;
+    border: none;
 }
